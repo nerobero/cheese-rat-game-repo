@@ -1,45 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7791855508113969901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD/CheeseRat/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638652937846617299
-  FileSizes:
-  - Name: Desktop
-    Value: 2680512
-  Exists: 1
---- !u!114 &-4698461315970667242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Bank A.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD/CheeseRat/Build/Desktop/Bank A.bank
-  Name: Bank A
-  StudioPath: bank:/Bank A
-  lastModified: 638652937846547230
-  FileSizes:
-  - Name: Desktop
-    Value: 494
-  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,19 +13,19 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 4380978130864187074}
-  - {fileID: -7791855508113969901}
-  - {fileID: -4698461315970667242}
+  - {fileID: 7814956813809475791}
+  - {fileID: 1827114133694922088}
+  - {fileID: 8258436615256335558}
   EditorEvents:
-  - {fileID: 2861189520091901328}
+  - {fileID: 1051544905060489940}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7791855508113969901}
+  - {fileID: 8258436615256335558}
   StringsBanks:
-  - {fileID: 4380978130864187074}
-  cacheTime: 638652937846627299
+  - {fileID: 7814956813809475791}
+  cacheTime: 638652429997400602
   cacheVersion: 131620
---- !u!114 &2861189520091901328
+--- !u!114 &1051544905060489940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -84,7 +44,7 @@ MonoBehaviour:
     Data3: 430448296
     Data4: -781706001
   Banks:
-  - {fileID: -7791855508113969901}
+  - {fileID: 8258436615256335558}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -92,7 +52,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 182000
---- !u!114 &4380978130864187074
+--- !u!114 &1827114133694922088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank A.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/CheeseRat/Build/Desktop/Bank A.bank
+  Name: Bank A
+  StudioPath: bank:/Bank A
+  lastModified: 638652429997234520
+  FileSizes:
+  - Name: Desktop
+    Value: 494
+  Exists: 1
+--- !u!114 &7814956813809475791
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,8 +87,28 @@ MonoBehaviour:
   Path: ../FMOD/CheeseRat/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638652937846627299
+  lastModified: 638652429997400602
   FileSizes:
   - Name: Desktop
     Value: 812
+  Exists: 1
+--- !u!114 &8258436615256335558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/CheeseRat/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638652429997390249
+  FileSizes:
+  - Name: Desktop
+    Value: 2680512
   Exists: 1
