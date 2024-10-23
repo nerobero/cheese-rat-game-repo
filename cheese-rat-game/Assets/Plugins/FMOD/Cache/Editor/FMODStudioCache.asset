@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../FMOD/CheeseRat/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638652267001706830
+  lastModified: 638652821840330826
   FileSizes:
   - Name: Desktop
-    Value: 839040
+    Value: 2680512
   Exists: 1
 --- !u!114 &-4698461315970667242
 MonoBehaviour:
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: ../FMOD/CheeseRat/Build/Desktop/Bank A.bank
   Name: Bank A
   StudioPath: bank:/Bank A
-  lastModified: 638652267002141905
+  lastModified: 638652821840171228
   FileSizes:
   - Name: Desktop
-    Value: 838528
+    Value: 494
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -57,15 +57,15 @@ MonoBehaviour:
   - {fileID: -7791855508113969901}
   - {fileID: -4698461315970667242}
   EditorEvents:
-  - {fileID: 2083716080912066805}
+  - {fileID: 2861189520091901328}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7791855508113969901}
   StringsBanks:
   - {fileID: 4380978130864187074}
-  cacheTime: 638652267002141905
+  cacheTime: 638652821840330826
   cacheVersion: 131620
---- !u!114 &2083716080912066805
+--- !u!114 &2861189520091901328
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,16 +75,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event
+  m_Name: event:/Sewer Ambiance
   m_EditorClassIdentifier: 
-  Path: event:/New Event
+  Path: event:/Sewer Ambiance
   Guid:
     Data1: -98653906
     Data2: 1154061985
     Data3: 430448296
     Data4: -781706001
   Banks:
-  - {fileID: -4698461315970667242}
   - {fileID: -7791855508113969901}
   IsStream: 1
   Is3D: 0
@@ -92,7 +91,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 17312
+  Length: 182000
 --- !u!114 &4380978130864187074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,8 +107,8 @@ MonoBehaviour:
   Path: ../FMOD/CheeseRat/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638652267001751835
+  lastModified: 638652821840330826
   FileSizes:
   - Name: Desktop
-    Value: 808
+    Value: 812
   Exists: 1
