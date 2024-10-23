@@ -15,10 +15,30 @@ MonoBehaviour:
   Path: ../FMOD/CheeseRat/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638652213265771022
+  lastModified: 638652267001706830
   FileSizes:
   - Name: Desktop
-    Value: 1574
+    Value: 839040
+  Exists: 1
+--- !u!114 &-4698461315970667242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank A.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/CheeseRat/Build/Desktop/Bank A.bank
+  Name: Bank A
+  StudioPath: bank:/Bank A
+  lastModified: 638652267002141905
+  FileSizes:
+  - Name: Desktop
+    Value: 838528
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -35,6 +55,7 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 4380978130864187074}
   - {fileID: -7791855508113969901}
+  - {fileID: -4698461315970667242}
   EditorEvents:
   - {fileID: 2083716080912066805}
   EditorParameters: []
@@ -42,7 +63,7 @@ MonoBehaviour:
   - {fileID: -7791855508113969901}
   StringsBanks:
   - {fileID: 4380978130864187074}
-  cacheTime: 638652213265785884
+  cacheTime: 638652267002141905
   cacheVersion: 131620
 --- !u!114 &2083716080912066805
 MonoBehaviour:
@@ -63,14 +84,15 @@ MonoBehaviour:
     Data3: 430448296
     Data4: -781706001
   Banks:
+  - {fileID: -4698461315970667242}
   - {fileID: -7791855508113969901}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 17312
 --- !u!114 &4380978130864187074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,8 +108,8 @@ MonoBehaviour:
   Path: ../FMOD/CheeseRat/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638652213265785884
+  lastModified: 638652267001751835
   FileSizes:
   - Name: Desktop
-    Value: 758
+    Value: 808
   Exists: 1
