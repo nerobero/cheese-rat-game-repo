@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    public bool carryingCheese = false;
     public Rigidbody2D myRigidBody2D;
     public float moveSpeed = 10;
     private Vector2 movement;
@@ -32,6 +32,14 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.D)) // Move Right
             {
                 movement.x += 1;
+            }
+        if (Input.GetKey(KeyCode.Space)) // Drop Cheese
+            {
+                carryingCheese = false;
+            }
+        if (Input.GetKey(KeyCode.E)) // Pickup Cheese
+            {
+                carryingCheese = true;
             }
         myRigidBody2D.linearVelocity = moveSpeed * movement;
     }   
