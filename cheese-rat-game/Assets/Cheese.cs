@@ -7,7 +7,7 @@ public class Cheese : MonoBehaviour
     public GameObject cheeseObject;
     public GameObject playerObject;
 
-    public bool collidingWithPlayer = false;
+    private bool collidingWithPlayer = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -34,7 +34,7 @@ public class Cheese : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerObject.GetComponent<PlayerMovement>().carryingCheese)
+        if(playerObject.GetComponent<PlayerMovement>().carryingCheese && collidingWithPlayer)
         {
             cheeseObject.transform.position = playerObject.transform.position;
         }
