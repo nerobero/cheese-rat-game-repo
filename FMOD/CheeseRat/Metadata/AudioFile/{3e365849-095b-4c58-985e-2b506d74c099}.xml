@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3e365849-095b-4c58-985e-2b506d74c099}">
+		<property name="assetPath">
+			<value>Sewer ambiance 120 9-WaterDrops_OnWater_SlowDrip.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.000020833333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{df28e295-c28e-4ac8-8ae7-7f210d60a1d8}</destination>
+		</relationship>
+	</object>
+</objects>
