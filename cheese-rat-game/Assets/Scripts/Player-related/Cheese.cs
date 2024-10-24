@@ -11,7 +11,7 @@ public class Cheese : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             collidingWithPlayer = true;
         }
@@ -19,7 +19,7 @@ public class Cheese : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             collidingWithPlayer = false;
         }
