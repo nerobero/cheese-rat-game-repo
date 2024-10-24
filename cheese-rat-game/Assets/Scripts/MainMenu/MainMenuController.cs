@@ -7,6 +7,12 @@ public class MainMenuController : MonoBehaviour
 {
     public CanvasGroup OptionPanel;
 
+    void Start()
+    {
+        OptionPanel.alpha = 0;
+        OptionPanel.blocksRaycasts = false;
+    }
+
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -16,12 +22,14 @@ public class MainMenuController : MonoBehaviour
     {
         OptionPanel.alpha = 1;
         OptionPanel.blocksRaycasts = true;
+        OptionPanel.interactable = true;
     }
 
     public void Back()
     {
-        OptionPanel.alpha = 1;
+        OptionPanel.alpha = 0;
         OptionPanel.blocksRaycasts = false;
+        OptionPanel.interactable = false;
     }
 
     public void QuitGame()
