@@ -8,14 +8,10 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
 <<<<<<< HEAD
-<<<<<<< HEAD
 [LOG] AsyncManager::init                       : manager 000002B468C1DF68 isAsync 0 updatePeriod 0.02
 =======
 [LOG] AsyncManager::init                       : manager 0000026E4B4F3868 isAsync 0 updatePeriod 0.02
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
-=======
-[LOG] AsyncManager::init                       : manager 0000026E4B4F3868 isAsync 0 updatePeriod 0.02
->>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.

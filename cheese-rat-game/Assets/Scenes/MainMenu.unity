@@ -168,11 +168,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 1
-<<<<<<< HEAD
   m_BlocksRaycasts: 1
-=======
-  m_BlocksRaycasts: 0
->>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
   m_IgnoreParentGroups: 0
 --- !u!1 &201665661
 GameObject:
@@ -395,11 +391,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: -20, y: -22}
-=======
-  m_AnchoredPosition: {x: -20.000061, y: -22.00003}
->>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &317532650
@@ -598,11 +590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: -20, y: -22}
-=======
-  m_AnchoredPosition: {x: -20.000061, y: -22.00003}
->>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &428247699
@@ -1249,11 +1237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   m_IgnoreReversedGraphics: 1
-=======
-  m_IgnoreReversedGraphics: 0
->>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
