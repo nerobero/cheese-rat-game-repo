@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -16,6 +17,9 @@ guid: 109926c2c2f76ff4faf854d2d448a13c
 =======
 guid: 4200128fd467aea4d802dd8b176e5b67
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+guid: 4200128fd467aea4d802dd8b176e5b67
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -54,6 +58,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -70,6 +75,9 @@ TextureImporter:
 =======
     filterMode: 0
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+    filterMode: 0
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,6 +116,7 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -124,6 +133,9 @@ TextureImporter:
 =======
     textureCompression: 0
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+    textureCompression: 0
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -201,15 +213,19 @@ TextureImporter:
       outline: []
       physicsShape: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
       tessellationDetail: 0
       bones: []
       spriteID: 77b76a4710f9c164599df18e5ef53a91
       internalID: -419276082
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -229,6 +245,8 @@ TextureImporter:
 >>>>>>> Stashed changes
 =======
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
       vertices: []
       indices: 
       edges: []
@@ -250,6 +268,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -271,6 +290,10 @@ TextureImporter:
       spriteID: 41de4b0c6ebd4a544a1d5328fbabc422
       internalID: 891803385
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+      spriteID: 41de4b0c6ebd4a544a1d5328fbabc422
+      internalID: 891803385
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
       vertices: []
       indices: 
       edges: []
@@ -292,6 +315,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -313,6 +337,10 @@ TextureImporter:
       spriteID: 3153775a3f0b8984bbc26563646e724d
       internalID: 1586100997
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+      spriteID: 3153775a3f0b8984bbc26563646e724d
+      internalID: 1586100997
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
       vertices: []
       indices: 
       edges: []
@@ -334,6 +362,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -355,6 +384,10 @@ TextureImporter:
       spriteID: 4f92987da02cfa741a43e4f252de32e1
       internalID: -2058371730
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+      spriteID: 4f92987da02cfa741a43e4f252de32e1
+      internalID: -2058371730
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
       vertices: []
       indices: 
       edges: []
@@ -363,6 +396,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -380,6 +414,9 @@ TextureImporter:
 =======
     spriteID: f367eb5e8f3fa6e45a96083a80dfc61a
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+    spriteID: f367eb5e8f3fa6e45a96083a80dfc61a
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
     internalID: 0
     vertices: []
     indices: 
@@ -390,15 +427,19 @@ TextureImporter:
       entries: []
     nameFileIdTable:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
       tilemap-temp_0: -419276082
       tilemap-temp_1: 891803385
       tilemap-temp_2: 1586100997
       tilemap-temp_3: -2058371730
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -418,6 +459,8 @@ TextureImporter:
 >>>>>>> Stashed changes
 =======
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

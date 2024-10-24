@@ -16,10 +16,14 @@ MonoBehaviour:
   Name: Master
   StudioPath: bank:/Master
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastModified: 638652429997390249
 =======
   lastModified: 638652988754215449
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+  lastModified: 638652988754215449
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
   FileSizes:
   - Name: Desktop
     Value: 2680512
@@ -40,10 +44,14 @@ MonoBehaviour:
   Name: Bank A
   StudioPath: bank:/Bank A
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastModified: 638652429997234520
 =======
   lastModified: 638652988754145520
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+  lastModified: 638652988754145520
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -72,10 +80,14 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 4380978130864187074}
 <<<<<<< HEAD
+<<<<<<< HEAD
   cacheTime: 638652429997400602
 =======
   cacheTime: 638652988754225461
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+  cacheTime: 638652988754225461
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
   cacheVersion: 131620
 --- !u!114 &2861189520091901328
 MonoBehaviour:
@@ -120,10 +132,14 @@ MonoBehaviour:
   Name: Master.strings
   StudioPath: bank:/Master.strings
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastModified: 638652429997400602
 =======
   lastModified: 638652988754225461
 >>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
+=======
+  lastModified: 638652988754225461
+>>>>>>> 37b889520cdaf63fa195ece8b2f87db4cb675da0
   FileSizes:
   - Name: Desktop
     Value: 812
