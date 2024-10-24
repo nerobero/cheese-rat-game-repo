@@ -12,7 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: tilemap-temp_3
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Sprite: {fileID: -2058371730, guid: 4200128fd467aea4d802dd8b176e5b67, type: 3}
+=======
+  m_Sprite: {fileID: -352096580, guid: 109926c2c2f76ff4faf854d2d448a13c, type: 3}
+>>>>>>> Stashed changes
+=======
+  m_Sprite: {fileID: -352096580, guid: 109926c2c2f76ff4faf854d2d448a13c, type: 3}
+>>>>>>> Stashed changes
+=======
+  m_Sprite: {fileID: -352096580, guid: 109926c2c2f76ff4faf854d2d448a13c, type: 3}
+>>>>>>> Stashed changes
+=======
+  m_Sprite: {fileID: -2058371730, guid: 4200128fd467aea4d802dd8b176e5b67, type: 3}
+>>>>>>> 22b77a70a2abef944debf0c85f0cfbe829534831
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
