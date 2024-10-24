@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D myRigidBody2D;
     public float moveSpeed = 10;
     private Vector2 movement;
+    public GameObject cheeseObject; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 carryingCheese = false;
             }
-        if (Input.GetKey(KeyCode.E)) // Pickup Cheese
+        if (Input.GetKey(KeyCode.E) && cheeseObject.GetComponent<Cheese>().collidingWithPlayer) // Pick Up Cheese
             {
                 carryingCheese = true;
             }
