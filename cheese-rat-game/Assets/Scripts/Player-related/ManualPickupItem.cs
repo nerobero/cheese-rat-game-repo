@@ -3,7 +3,10 @@ using UnityEngine;
 
 public abstract class ManualPickupItem : MonoBehaviour
 {
-    protected GameObject _playerObject;
+    //protected GameObject _gameObjectRef = null;
+
+    //gameobject reference to the player that owns this pick-up item
+    protected GameObject _playerObject = null;
 
     protected bool collidingWithPlayer = false;
 
@@ -45,8 +48,4 @@ public abstract class ManualPickupItem : MonoBehaviour
 
     public abstract bool UseItem();
 
-    public static explicit operator ManualPickupItem(GameObject v)
-    {
-        throw new NotImplementedException();
-    }
 }
