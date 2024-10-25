@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+cheese-rat-game/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+cheese-rat-game/fmod_editor.log
+
+cheese-rat-game/fmod_editor.log
+
+cheese-rat-game/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset

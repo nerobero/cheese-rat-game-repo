@@ -11,11 +11,14 @@ public class MainMenuController : MonoBehaviour
     {
         OptionPanel.alpha = 0;
         OptionPanel.blocksRaycasts = false;
+        OptionPanel.interactable = false;
+        Debug.Log("Play Game clicked");
     }
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
+        Debug.Log("Play Game clicked");
     }
 
     public void Option()
@@ -23,6 +26,7 @@ public class MainMenuController : MonoBehaviour
         OptionPanel.alpha = 1;
         OptionPanel.blocksRaycasts = true;
         OptionPanel.interactable = true;
+        Debug.Log("Play Game clicked");
     }
 
     public void Back()
@@ -30,6 +34,7 @@ public class MainMenuController : MonoBehaviour
         OptionPanel.alpha = 0;
         OptionPanel.blocksRaycasts = false;
         OptionPanel.interactable = false;
+        Debug.Log("ogwogogkeokgw Game clicked");
     }
 
     public void QuitGame()
