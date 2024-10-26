@@ -56,12 +56,12 @@ public class PlayerMovement : MonoBehaviour
                     SetCurrentItem(_currentInteractable);
                 // sets the owner of the current usable item as  
                     _currentUsableItem.SetPlayerObject(gameObject);
+                    _currentUsableItem.SetPlayerMovementRef(this);
                 }
             }
         if (Input.GetKey(KeyCode.F) && _currentUsableItem != null)
         {
             _currentUsableItem.UseItem();
-            Destroy(_currentUsableItem);
             _currentUsableItem = null;
         }
         myRigidBody2D.linearVelocity = moveSpeed * movement;
