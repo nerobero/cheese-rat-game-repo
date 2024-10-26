@@ -7,7 +7,7 @@ public abstract class ManualPickupItem : MonoBehaviour
 
     //gameobject reference to the player that owns this pick-up item
     protected GameObject _playerObject = null;
-
+    protected PlayerMovement _playerMovement = null;
     protected bool collidingWithPlayer = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -46,6 +46,11 @@ public abstract class ManualPickupItem : MonoBehaviour
         }
     }
 
-    public abstract bool UseItem();
+    public void SetPlayerMovementRef(PlayerMovement playerMovement)
+    {
+        if (playerMovement) { _playerMovement = playerMovement; }
+    }
+
+    public abstract void UseItem();
 
 }
