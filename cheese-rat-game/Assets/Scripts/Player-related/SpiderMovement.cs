@@ -1,47 +1,54 @@
 using UnityEngine;
 
-public class SpiderMovement : MonoBehaviour
+public class SpiderMovement : PlayerMovement
 {
-    public bool carryingCheese = false;
-    public Rigidbody2D myRigidBody2D;
-    public float moveSpeed = 10;
-    private Vector2 movement;
-    public GameObject cheeseObject; 
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
+    
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
         movement = new Vector2(0, 0);
-        if (Input.GetKey(KeyCode.W)) // Move Up
+        if (Input.GetKey(KeyCode.UpArrow)) // Move Up
+        {
+            movement.y += 1;
+        }
+        if (Input.GetKey(KeyCode.DownArrow)) // Move Down
+        {
+            movement.y += -1;
+        }
+        if (Input.GetKey(KeyCode.LeftArrow)) // Move Left
+        {
+            movement.x += -1;
+        }
+        if (Input.GetKey(KeyCode.RightArrow)) // Move Right
+        {
+            movement.x += 1;
+        }
+        if (Input.GetKey(KeyCode.KeypadEnter)) // Drop Cheese
+        {
+            carryingCheese = false;
+        }
+        if (Input.GetKey(KeyCode.RightShift)) // Pick Up Cheese
+        {
+            //if (cheeseObject.GetComponent<Cheese>().collidingWithPlayer)
+            //{
+            //    carryingCheese = true;
+            //}
+
+            if (_currentInteractable && _isInteractable)
             {
-                movement.y += 1;
+                SetCurrentItem(_currentInteractable);
+                // sets the owner of the current usable item as  
+                _currentUsableItem.SetPlayerObject(gameObject);
+                _currentUsableItem.SetPlayerMovementRef(this);
             }
-        if (Input.GetKey(KeyCode.S)) // Move Down
-            {
-                movement.y += -1;
-            }
-        if (Input.GetKey(KeyCode.A)) // Move Left
-            {
-                movement.x += -1;
-            }
-        if (Input.GetKey(KeyCode.D)) // Move Right
-            {
-                movement.x += 1;
-            }
-        if (Input.GetKey(KeyCode.Space)) // Drop Cheese
-            {
-                carryingCheese = false;
-            }
-        if (Input.GetKey(KeyCode.E) && cheeseObject.GetComponent<Cheese>().collidingWithPlayer) // Pick Up Cheese
-            {
-                carryingCheese = true;
-            }
+        }
+        if (Input.GetKey(KeyCode.RightControl) && _currentUsableItem != null)
+        {
+            _currentUsableItem.UseItem();
+            _currentUsableItem = null;
+        }
         myRigidBody2D.linearVelocity = moveSpeed * movement;
-    }   
+    }
 }
