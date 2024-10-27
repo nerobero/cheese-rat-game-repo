@@ -13,11 +13,18 @@ public class PlayerMovement : MonoBehaviour
     private GameObject _currentInteractable;
     private bool _isInteractable = false;
 
+    private HealthLogic _playerHealth = null;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _currentInteractable = null;
         _currentUsableItem = null;
+
+        if (gameObject.GetComponent<HealthLogic>() != null)
+        {
+            _playerHealth = gameObject.GetComponent<HealthLogic>();
+        }
     }
 
     // Update is called once per frame
