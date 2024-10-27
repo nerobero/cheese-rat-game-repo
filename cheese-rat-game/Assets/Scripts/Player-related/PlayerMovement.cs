@@ -6,17 +6,17 @@ public class PlayerMovement : MonoBehaviour
     public bool carryingCheese = false;
     public Rigidbody2D myRigidBody2D;
     public float moveSpeed = 10;
-    private Vector2 movement;
+    protected Vector2 movement;
     public GameObject cheeseObject;
 
-    private ManualPickupItem _currentUsableItem;
-    private GameObject _currentInteractable;
-    private bool _isInteractable = false;
+    protected ManualPickupItem _currentUsableItem;
+    protected GameObject _currentInteractable;
+    protected bool _isInteractable = false;
 
-    private HealthLogic _playerHealth = null;
+    protected HealthLogic _playerHealth = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected void Start()
     {
         _currentInteractable = null;
         _currentUsableItem = null;
@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         movement = new Vector2(0, 0);
         if (Input.GetKey(KeyCode.W)) // Move Up
@@ -81,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Interactable")
         {
@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    protected void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Interactable")
         {
