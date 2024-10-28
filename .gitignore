@@ -72,3 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 cheese-rat-game/fmod_editor.log
 cheese-rat-game/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+cheese-rat-game/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+cheese-rat-game/fmod_editor.log
