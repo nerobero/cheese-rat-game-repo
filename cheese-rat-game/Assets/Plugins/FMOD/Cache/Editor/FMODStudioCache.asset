@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../FMOD/CheeseRat/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638652988754215449
+  lastModified: 638656765202299021
   FileSizes:
   - Name: Desktop
     Value: 2680512
@@ -63,7 +63,7 @@ MonoBehaviour:
   - {fileID: -7791855508113969901}
   StringsBanks:
   - {fileID: 4380978130864187074}
-  cacheTime: 638652988754225461
+  cacheTime: 638656765202309001
   cacheVersion: 131620
 --- !u!114 &2861189520091901328
 MonoBehaviour:
@@ -107,7 +107,7 @@ MonoBehaviour:
   Path: ../FMOD/CheeseRat/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638652988754225461
+  lastModified: 638656765202309001
   FileSizes:
   - Name: Desktop
     Value: 812
