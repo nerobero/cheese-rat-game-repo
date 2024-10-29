@@ -35,7 +35,7 @@
 			<value>volume</value>
 		</property>
 		<property name="value">
-			<value>-1.5</value>
+			<value>-10.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{941bc4e4-e3f5-4899-aba0-227231dab44e}</destination>
@@ -63,13 +63,16 @@
 			<value>-10.3999996</value>
 		</property>
 		<property name="decayTime">
-			<value>60000</value>
+			<value>660</value>
 		</property>
 		<property name="sustainValue">
 			<value>-11.5555553</value>
 		</property>
 		<property name="releaseTime">
-			<value>3423.07764</value>
+			<value>800</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.352680326</value>
 		</property>
 		<property name="finalValue">
 			<value>-0.977779388</value>
