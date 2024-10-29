@@ -31,17 +31,25 @@ public class SpiderMovement : PlayerMovement
         }
         if (Input.GetKey(KeyCode.RightShift)) // Pick Up Cheese
         {
-            //if (cheeseObject.GetComponent<Cheese>().collidingWithPlayer)
-            //{
-            //    carryingCheese = true;
-            //}
+            if (cheeseObject != null && cheeseObject.GetComponent<Cheese>().collidingWithPlayer)
+            {
+                carryingCheese = true;
+            }
 
             if (_currentInteractable && _isInteractable)
             {
                 SetCurrentItem(_currentInteractable);
-                // sets the owner of the current usable item as  
-                _currentUsableItem.SetPlayerObject(gameObject);
-                _currentUsableItem.SetPlayerMovementRef(this);
+                bool _isValidUsableItem;
+                _isValidUsableItem = false;
+                _isValidUsableItem = _currentUsableItem.SetPlayerObject(gameObject);
+                _isValidUsableItem = _isValidUsableItem && _currentUsableItem.SetPlayerMovementRef(this);
+                _isValidUsableItem = _isValidUsableItem && _currentUsableItem.SetPlayerHealth(_playerHealth);
+                
+                if (!_isValidUsableItem)
+                {
+                    _currentUsableItem = null;
+                    _currentUsableItem.ShowItem();
+                }
             }
         }
         if (Input.GetKey(KeyCode.RightControl) && _currentUsableItem != null)

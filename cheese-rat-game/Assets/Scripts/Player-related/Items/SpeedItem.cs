@@ -8,11 +8,17 @@ public class SpeedItem : ManualPickupItem
     private float _originalSpeed;
     public override void UseItem()
     {
-        _originalSpeed = _playerMovement.moveSpeed;
-        _playerMovement.moveSpeed = _originalSpeed 
-                                    * _speedChangeFactor;
-        Debug.Log("movement speed buffed");
-        StartCoroutine(ResetSpeed(10f));
+        if (IsUsable())
+        {
+            _originalSpeed = _playerMovement.moveSpeed;
+            _playerMovement.moveSpeed = _originalSpeed
+                                        * _speedChangeFactor;
+            Debug.Log("movement speed buffed");
+            StartCoroutine(ResetSpeed(10f));
+        } else
+        {
+            Debug.Log("Cannot use this item for this character: " + _playerObject.name);
+        }
     }
 
     private IEnumerator ResetSpeed(float timeInSec)
@@ -20,6 +26,10 @@ public class SpeedItem : ManualPickupItem
         yield return new WaitForSeconds(timeInSec);
         Debug.Log("movement speed reset to original");
         _playerMovement.moveSpeed = _originalSpeed;
+        _playerHealth = null;
+        _playerMovement = null;
+        _playerObject = null;
+        ShowItem();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

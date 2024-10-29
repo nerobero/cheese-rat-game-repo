@@ -10,11 +10,16 @@ public abstract class ManualPickupItem : MonoBehaviour
     protected PlayerMovement _playerMovement = null;
     protected HealthLogic _playerHealth = null;
     protected bool collidingWithPlayer = false;
+    [SerializeField] protected BoxCollider2D _collider;
+    [SerializeField] protected SpriteRenderer _sprite ;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        _collider = gameObject.GetComponent<BoxCollider2D>();
+        _sprite = gameObject.GetComponent<SpriteRenderer>();
+        _collider.enabled = true;
+        _sprite.enabled = true;
     }
 
     // Update is called once per frame
@@ -39,27 +44,77 @@ public abstract class ManualPickupItem : MonoBehaviour
         }
     }
 
-    public void SetPlayerObject(GameObject playerObject)
+    public bool SetPlayerObject(GameObject playerObject)
     {
         if (playerObject)
         {
-            _playerObject = playerObject;
+            if (_playerObject == null) { 
+                _playerObject = playerObject; 
+                return true; 
+            }
+            else { 
+                Debug.Log("Cannot set player object reference until it is set to null"); 
+                return false; 
+            }
+        } else
+        {
+            return false;
         }
     }
 
-    public void SetPlayerMovementRef(PlayerMovement playerMovement)
+    public bool SetPlayerMovementRef(PlayerMovement playerMovement)
     {
-        if (playerMovement) { _playerMovement = playerMovement; }
+        if (playerMovement)
+        {
+            if (_playerMovement == null) { 
+                _playerMovement = playerMovement; 
+                return true; 
+            }
+            else { 
+                /*Debug.Log("Cannot set player movement reference until it is set to null");*/ 
+                return false; 
+            }
+        } else
+        {
+            return false;
+        }
     }
 
-    public void SetPlayerHealth(HealthLogic healthLogic)
+    public bool SetPlayerHealth(HealthLogic healthLogic)
     {
         if (healthLogic)
         {
-            _playerHealth = healthLogic;
+            if (_playerHealth == null) { 
+                _playerHealth = healthLogic; 
+                return true; 
+            }
+            else { 
+                /*Debug.Log("Cannot set player health reference until it is set to null"); */
+                return false; 
+            }
+        } else
+        {
+            return false;
         }
     }
 
     public abstract void UseItem();
+
+    public void HideItem()
+    {
+        _collider.enabled = false;
+        _sprite.enabled = false;
+    }
+
+    public void ShowItem()
+    {
+        _collider.enabled = true;
+        _sprite.enabled = true;
+    }
+
+    protected bool IsUsable()
+    {
+        return _playerHealth != null && _playerMovement != null && _playerObject != null ;
+    }
 
 }

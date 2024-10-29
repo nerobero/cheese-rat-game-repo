@@ -798,9 +798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb94454bd457cb46a1ead9826808830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cheeseObject: {fileID: 1365207000}
-  playerObject: {fileID: 980946579}
-  collidingWithPlayer: 0
 --- !u!212 &1365207003
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1218,6 +1215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf937cfaa5017b4ea13e906f6b01875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _collider: {fileID: 1883408724}
+  _sprite: {fileID: 1883408721}
   _speedChangeFactor: 2
 --- !u!61 &1883408724
 BoxCollider2D:
