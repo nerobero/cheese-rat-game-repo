@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D myRigidBody2D;
     public float moveSpeed = 10;
     protected Vector2 movement;
-    public GameObject cheeseObject;
+    protected GameObject cheeseObject = null;
 
     protected ManualPickupItem _currentUsableItem;
     protected GameObject _currentInteractable;
@@ -88,6 +88,10 @@ public class PlayerMovement : MonoBehaviour
             _currentInteractable = collision.gameObject;
             _isInteractable = true;
         }
+        if (collision.gameObject.tag == "Cheese")
+        {
+            cheeseObject = collision.gameObject;
+        }
     }
 
     protected void OnTriggerExit2D(Collider2D collision)
@@ -96,6 +100,10 @@ public class PlayerMovement : MonoBehaviour
         {
             _currentInteractable = null;
             _isInteractable = false;
+        }
+        if (collision.gameObject.tag == "Cheese")
+        {
+            cheeseObject = null;
         }
     }
 }
