@@ -11,7 +11,11 @@ public class Cheese : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+<<<<<<<< HEAD:cheese-rat-game/Assets/Scripts/Player-related/Items/Cheese.cs
+        if (collision.gameObject.tag == "Player")
+========
         if (collision.CompareTag("Player"))
+>>>>>>>> 6cf6f88c82134f89dddee2cbc0f63974e61ed17f:cheese-rat-game/Assets/Scripts/Cheese.cs
         {
             collidingWithPlayer = true;
             playerObject = collision.gameObject; 
@@ -20,7 +24,11 @@ public class Cheese : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+<<<<<<<< HEAD:cheese-rat-game/Assets/Scripts/Player-related/Items/Cheese.cs
+        if (collision.gameObject.tag == "Player")
+========
         if (collision.CompareTag("Player"))
+>>>>>>>> 6cf6f88c82134f89dddee2cbc0f63974e61ed17f:cheese-rat-game/Assets/Scripts/Cheese.cs
         {
             collidingWithPlayer = false;
             playerObject = null; 
