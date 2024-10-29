@@ -4,37 +4,32 @@ using UnityEngine;
 
 public class Cheese : MonoBehaviour
 {
-    public GameObject cheeseObject;
-    public GameObject playerObject;
+    public GameObject cheeseObject; 
+    public GameObject playerObject; 
 
-    public bool collidingWithPlayer = false;
+    public bool collidingWithPlayer = false; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             collidingWithPlayer = true;
+            playerObject = collision.gameObject; 
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             collidingWithPlayer = false;
+            playerObject = null; 
         }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if(playerObject.GetComponent<PlayerMovement>().carryingCheese)
+        if (playerObject != null && playerObject.GetComponent<PlayerMovement>().carryingCheese)
         {
             cheeseObject.transform.position = playerObject.transform.position;
         }
