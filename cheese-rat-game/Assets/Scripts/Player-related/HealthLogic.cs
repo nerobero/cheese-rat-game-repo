@@ -20,6 +20,8 @@ public class HealthLogic : MonoBehaviour
     public void Heal(float healAmount)
     {
         _currentHealth += healAmount;
+
+        if (_currentHealth >= _maximumHealth) { _currentHealth = _maximumHealth; }
     }
 
     public void TakeDamage(float damageAmount)
@@ -27,6 +29,7 @@ public class HealthLogic : MonoBehaviour
         if (_currentHealth <= 0f)
         {
             _isDead = true;
+            _currentHealth = 0f;
         } else
         {
             _currentHealth -= damageAmount;
@@ -36,5 +39,10 @@ public class HealthLogic : MonoBehaviour
     public float GetCurrentHealth()
     {
         return _currentHealth;
+    }
+
+    public float GetMaximumHealth()
+    {
+        return _maximumHealth;
     }
 }

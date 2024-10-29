@@ -3,20 +3,19 @@ using UnityEngine;
 
 public abstract class ManualPickupItem : MonoBehaviour
 {
-    //protected GameObject _gameObjectRef = null;
 
     //gameobject reference to the player that owns this pick-up item
     protected GameObject _playerObject = null;
     protected PlayerMovement _playerMovement = null;
     protected HealthLogic _playerHealth = null;
     protected bool collidingWithPlayer = false;
-    [SerializeField] protected BoxCollider2D _collider;
+    [SerializeField] protected Collider2D _collider;
     [SerializeField] protected SpriteRenderer _sprite ;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        _collider = gameObject.GetComponent<BoxCollider2D>();
+        _collider = gameObject.GetComponent<Collider2D>();
         _sprite = gameObject.GetComponent<SpriteRenderer>();
         _collider.enabled = true;
         _sprite.enabled = true;
