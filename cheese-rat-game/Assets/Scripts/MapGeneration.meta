@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 1eae84f8d42d1404a8b7ec317941ffcd
+<<<<<<<< HEAD:cheese-rat-game/Assets/Scripts/MapGeneration.meta
+guid: 503721abcc9193442a2b5f69767aa366
+========
+guid: 1e2fe8c67635bb5438cab394c192ca6e
+>>>>>>>> 6cf6f88c82134f89dddee2cbc0f63974e61ed17f:cheese-rat-game/Assets/Prefabs.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
