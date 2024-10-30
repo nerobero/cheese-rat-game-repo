@@ -5,9 +5,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public bool carryingCheese = false;
     public Rigidbody2D myRigidBody2D;
-    public float moveSpeed = 10;
+    public float moveSpeed = 10f;
     protected Vector2 movement;
-    protected GameObject cheeseObject = null;
+    [SerializeField] protected GameObject cheeseObject = null;
 
     protected ManualPickupItem _currentUsableItem;
     protected GameObject _currentInteractable;
@@ -51,21 +51,29 @@ public class PlayerMovement : MonoBehaviour
             {
                 carryingCheese = false;
             }
-        if (Input.GetKey(KeyCode.E)) // Pick Up Cheese
+        if (Input.GetKey(KeyCode.E)) 
+        {
+            if (cheeseObject != null && cheeseObject.GetComponent<Cheese>().collidingWithPlayer)
             {
-                if (cheeseObject.GetComponent<Cheese>().collidingWithPlayer)
-                {
-                    carryingCheese = true;
-                }
+                carryingCheese = true;
+            }
 
-                if (_currentInteractable && _isInteractable)
+            if (_currentInteractable && _isInteractable)
+            {
+                SetCurrentItem(_currentInteractable);
+                bool _isValidUsableItem;
+                _isValidUsableItem = false;
+                _isValidUsableItem = _currentUsableItem.SetPlayerObject(gameObject);
+                _isValidUsableItem = _isValidUsableItem && _currentUsableItem.SetPlayerMovementRef(this);
+                _isValidUsableItem = _isValidUsableItem && _currentUsableItem.SetPlayerHealth(_playerHealth);
+
+                if (!_isValidUsableItem)
                 {
-                    SetCurrentItem(_currentInteractable);
-                // sets the owner of the current usable item as  
-                    _currentUsableItem.SetPlayerObject(gameObject);
-                    _currentUsableItem.SetPlayerMovementRef(this);
+                    _currentUsableItem = null;
+                    _currentUsableItem.ShowItem();
                 }
             }
+        }
         if (Input.GetKey(KeyCode.F) && _currentUsableItem != null)
         {
             _currentUsableItem.UseItem();
@@ -78,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
         if (currentItem)
         {
             _currentUsableItem = currentItem.GetComponent<ManualPickupItem>();
+            _currentUsableItem.HideItem();
         }
     }
 
