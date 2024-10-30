@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/WinSceneRat.unity
+    guid: 41daf6b60ba482f489795f9a557d7dcd
+  - enabled: 1
+    path: Assets/Scenes/WinSceneSpider.unity
+    guid: 30bf6715b82a69c42a94a421806bfec3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: f7bfd334224345447bc72c2d67ee0660, type: 3}
   m_UseUCBPForAssetBundles: 0
