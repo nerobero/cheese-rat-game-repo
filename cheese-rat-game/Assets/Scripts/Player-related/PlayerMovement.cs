@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D myRigidBody2D;
     public float moveSpeed = 10f;
     protected Vector2 movement;
-    protected GameObject cheeseObject = null;
+    [SerializeField] protected GameObject cheeseObject = null;
 
     protected ManualPickupItem _currentUsableItem;
     protected GameObject _currentInteractable;

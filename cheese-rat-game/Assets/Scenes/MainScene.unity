@@ -814,6 +814,7 @@ MonoBehaviour:
   carryingCheese: 0
   myRigidBody2D: {fileID: 811732413}
   moveSpeed: 10
+  cheeseObject: {fileID: 0}
 --- !u!61 &811732412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1035,6 +1036,7 @@ MonoBehaviour:
   carryingCheese: 0
   myRigidBody2D: {fileID: 980946580}
   moveSpeed: 10
+  cheeseObject: {fileID: 1365207000}
 --- !u!58 &980946584
 CircleCollider2D:
   m_ObjectHideFlags: 0
