@@ -1,20 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity; 
+using System;
 
 public class Cheese : MonoBehaviour
 {
-    public GameObject cheeseObject; 
-    public GameObject playerObject; 
+    public GameObject cheeseObject;
+    public GameObject playerObject;
 
-    public bool collidingWithPlayer = false; 
+    public bool collidingWithPlayer = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             collidingWithPlayer = true;
-            playerObject = collision.gameObject; 
+            playerObject = collision.gameObject;
         }
     }
 
@@ -23,7 +25,7 @@ public class Cheese : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             collidingWithPlayer = false;
-            playerObject = null; 
+            playerObject = null;
         }
     }
 
@@ -32,6 +34,11 @@ public class Cheese : MonoBehaviour
         if (playerObject != null && playerObject.GetComponent<PlayerMovement>().carryingCheese)
         {
             cheeseObject.transform.position = playerObject.transform.position;
+         /* FMOD.Studio.EventInstance PickupSound;
+            PickupSound = RuntimeManager.CreateInstance ("event:/Oneshots/ping");
+            PickupSound.start(); */
+            RuntimeManager.PlayOneShot ("event:/Oneshots/ping");   /* This my Bookgang ah code ~Shiori */
+
         }
     }
 }
