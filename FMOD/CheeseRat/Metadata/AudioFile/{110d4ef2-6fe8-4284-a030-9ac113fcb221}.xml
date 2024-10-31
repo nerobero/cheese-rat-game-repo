@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{110d4ef2-6fe8-4284-a030-9ac113fcb221}">
+		<property name="assetPath">
+			<value>Healing 3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>22.0499992</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5179591836734694</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{df28e295-c28e-4ac8-8ae7-7f210d60a1d8}</destination>
+		</relationship>
+	</object>
+</objects>
