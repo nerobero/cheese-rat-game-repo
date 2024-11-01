@@ -48,8 +48,10 @@ public abstract class ManualPickupItem : MonoBehaviour
         if (playerObject)
         {
             if (_playerObject == null) { 
-                _playerObject = playerObject; 
-                return true; 
+                _playerObject = playerObject;
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Oneshots/ping");
+                return true;
+                
             }
             else { return false; }
         } else

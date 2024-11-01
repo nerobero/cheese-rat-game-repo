@@ -16,6 +16,7 @@ public class VenomItem : ManualPickupItem
             {
                 _originalProjectile = _gunHandler.GetProjectilePrefab();
                 _gunHandler.ChangeProjectileType(_poisonProjectile);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Oneshots/Powerups/Poison");
                 StartCoroutine(ResetProjectile(10f));
             } else
             {

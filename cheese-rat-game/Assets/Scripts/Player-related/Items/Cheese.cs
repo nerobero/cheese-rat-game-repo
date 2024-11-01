@@ -35,9 +35,9 @@ public class Cheese : MonoBehaviour
         {
             cheeseObject.transform.position = playerObject.transform.position;
          /* FMOD.Studio.EventInstance PickupSound;
-            PickupSound = RuntimeManager.CreateInstance ("event:/Oneshots/ping");
+            PickupSound = RuntimeManager.CreateInstance ("event:/Oneshots/ping2");
             PickupSound.start(); */
-            RuntimeManager.PlayOneShot ("event:/Oneshots/ping");   /* This my Bookgang ah code ~Shiori */
+            RuntimeManager.PlayOneShot ("event:/Oneshots/ping2");   /* This my Bookgang ah code ~Shiori */
 
         }
     }

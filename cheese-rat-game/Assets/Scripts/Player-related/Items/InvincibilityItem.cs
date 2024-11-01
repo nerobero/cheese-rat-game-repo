@@ -8,7 +8,7 @@ public class InvincibilityItem : ManualPickupItem
         if (IsUsable())
         {
             _playerHealth.SetToInvincible();
-            /* Fmod */
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Oneshots/Powerups/Invincible");
             Debug.Log("Player is invincible");
             StartCoroutine(Resetitem(10f));
         }

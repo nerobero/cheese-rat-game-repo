@@ -102,6 +102,7 @@
 		<property name="length">
 			<value>1.53125</value>
 		</property>
+		<property name="name" />
 		<property name="volume">
 			<value>9.5</value>
 		</property>
@@ -221,6 +222,7 @@
 	<object class="MixerBusEffectChain" id="{3a039821-f6fa-4919-a5f0-de77d5d1c5a1}">
 		<relationship name="effects">
 			<destination>{b74bf1f4-72ce-465a-8b5b-64d19e558c96}</destination>
+			<destination>{d9ce6344-710b-4a3b-8fe3-4ba75704a371}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{11fd0a42-c930-43f8-a15d-bb2c760c09b9}" />
@@ -267,6 +269,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b74bf1f4-72ce-465a-8b5b-64d19e558c96}" />
+	<object class="CompressorEffect" id="{d9ce6344-710b-4a3b-8fe3-4ba75704a371}">
+		<property name="gain">
+			<value>7.5</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{c7a4ccbf-c6cf-4e33-b31b-3a5476d89f4d}">
 		<property name="position">
 			<value>0</value>
