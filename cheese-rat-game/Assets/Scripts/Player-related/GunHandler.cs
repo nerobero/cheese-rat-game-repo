@@ -43,4 +43,14 @@ public class GunHandler : MonoBehaviour
         float angle  = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg - 90f;
         _rigidBody.rotation = angle;
     }
+
+    public void ChangeProjectileType(GameObject newProjectile)
+    {
+        _projectilePrefab = newProjectile;
+    }
+
+    public GameObject GetProjectilePrefab()
+    {
+        return _projectilePrefab;
+    }
 }

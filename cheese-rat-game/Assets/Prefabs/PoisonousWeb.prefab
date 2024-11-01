@@ -105,7 +105,7 @@ MonoBehaviour:
   _maxProjDistance: 10
   _minimumDamage: 10
   _maximumDamage: 20
-  _slowingFactor: 0.5
+  _slowingFactor: 1
   _collider: {fileID: 1729026577648420089}
   _sprite: {fileID: 8980045141834288577}
 --- !u!58 &1729026577648420089

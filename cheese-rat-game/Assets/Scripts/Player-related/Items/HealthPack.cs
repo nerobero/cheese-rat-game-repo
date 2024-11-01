@@ -18,8 +18,9 @@ public class HealthPack : ManualPickupItem
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         _healAmount = 40f;
     }
 

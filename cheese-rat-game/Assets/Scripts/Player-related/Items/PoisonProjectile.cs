@@ -9,6 +9,7 @@ public class PoisonProjectile : DamageProjectile
     private PlayerMovement movementComponent = null;
     [SerializeField] private Collider2D _collider;
     [SerializeField] private SpriteRenderer _sprite;
+    private bool _continueChanging = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,8 +30,16 @@ public class PoisonProjectile : DamageProjectile
             movementComponent = collision.gameObject.GetComponent<PlayerMovement>();
             if (movementComponent != null)
             {
-                movementComponent.SetMovementSpeed(_originalSpeed * _slowingFactor);
-                StartCoroutine(ResetSpeed(5f));
+                _originalSpeed = movementComponent.GetMovementSpeed();
+                if (ShouldContinueChanging())
+                {
+                    movementComponent.SetMovementSpeed(_originalSpeed - _slowingFactor);
+                    StartCoroutine(ResetSpeed(5f));
+                } else
+                {
+                    Debug.Log("already slowed down the enemy!");
+                }
+                
             }
             HideItem();
         }
@@ -44,6 +53,12 @@ public class PoisonProjectile : DamageProjectile
         movementComponent.SetMovementSpeed(_originalSpeed);
         movementComponent = null;
         Destroy(gameObject);
+    }
+
+    private bool ShouldContinueChanging()
+    {
+        float currentSpeed = movementComponent.GetMovementSpeed();
+        return currentSpeed != _originalSpeed - _slowingFactor;
     }
 
     public void HideItem()

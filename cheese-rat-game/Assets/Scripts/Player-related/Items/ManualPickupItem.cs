@@ -13,7 +13,7 @@ public abstract class ManualPickupItem : MonoBehaviour
     [SerializeField] protected SpriteRenderer _sprite;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected virtual void Start()
     {
         _collider = gameObject.GetComponent<Collider2D>();
         _sprite = gameObject.GetComponent<SpriteRenderer>();

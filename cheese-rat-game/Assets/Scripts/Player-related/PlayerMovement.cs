@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework.Constraints;
-using UnityEditor.MPE;
+//using UnityEditor.MPE;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public bool carryingCheese = false;
     public Rigidbody2D myRigidBody2D;
-    [SerializeField] protected float moveSpeed = 10f;
+    [SerializeField] protected float moveSpeed = 10.0f;
     protected Vector2 movement;
     [SerializeField] protected GameObject cheeseObject = null;
 
