@@ -1,8 +1,14 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class SpiderMovement : PlayerMovement
 {
+    private Animator animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
     // Update is called once per frame
     protected override void Update()
     {
@@ -10,18 +16,40 @@ public class SpiderMovement : PlayerMovement
         if (Input.GetKey(KeyCode.UpArrow)) // Move Up
         {
             movement.y += 1;
+            animator.SetBool("isWalking", true);
+            animator.SetFloat("InputX", 0);
+            animator.SetFloat("InputY", movement.y);
+            animator.SetFloat("LastInputX", 0);
+            animator.SetFloat("LastInputY", movement.y);
         }
         if (Input.GetKey(KeyCode.DownArrow)) // Move Down
         {
             movement.y += -1;
+            animator.SetBool("isWalking", true);
+            animator.SetFloat("InputX", 0);
+            animator.SetFloat("InputY", movement.y);
+            animator.SetFloat("LastInputX", 0);
+            animator.SetFloat("LastInputY", movement.y);
         }
         if (Input.GetKey(KeyCode.LeftArrow)) // Move Left
         {
             movement.x += -1;
+            animator.SetBool("isWalking", true);
+            animator.SetFloat("InputX", movement.x);
+            animator.SetFloat("LastInputX", movement.x);
+            animator.SetFloat("LastInputY", 0);
         }
         if (Input.GetKey(KeyCode.RightArrow)) // Move Right
         {
             movement.x += 1;
+            animator.SetBool("isWalking", true);
+            animator.SetFloat("InputX", movement.x);
+            animator.SetFloat("LastInputX", movement.x);
+            animator.SetFloat("LastInputY", 0);
+        }
+        if (movement == Vector2.zero)
+        {
+            animator.SetBool("isWalking", false);
         }
         if (Input.GetKey(KeyCode.KeypadEnter)) // Drop Cheese
         {

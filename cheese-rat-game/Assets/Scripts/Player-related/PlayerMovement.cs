@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     protected bool _isInteractable = false;
 
     protected HealthLogic _playerHealth = null;
-    private Animator animator;
+    protected Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected void Start()
