@@ -4,6 +4,7 @@ using NUnit.Framework.Constraints;
 //using UnityEditor.MPE;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -187,6 +188,15 @@ public class PlayerMovement : MonoBehaviour
         }
         return false;
 
+    }
+
+    public void OnCollisionEnter2D (Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Amongus") && carryingCheese)
+        {
+        SceneManager.LoadScene(2);
+        return;
+        }
     }
 
     // private void OnCollisionEnter2D(Collision2D collision)

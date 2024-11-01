@@ -9,6 +9,7 @@ TagManager:
   - Projectile
   - WALLS
   - Wall
+  - Amongus
   layers:
   - Default
   - TransparentFX

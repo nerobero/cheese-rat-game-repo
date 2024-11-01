@@ -199,7 +199,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpiderWin_0: 4629047927926343243
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
