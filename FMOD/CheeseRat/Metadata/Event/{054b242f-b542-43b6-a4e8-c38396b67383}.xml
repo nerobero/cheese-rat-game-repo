@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{054b242f-b542-43b6-a4e8-c38396b67383}">
 		<property name="name">
-			<value>Poison</value>
+			<value>Poisonk</value>
 		</property>
 		<property name="outputFormat">
 			<value>5</value>
@@ -184,9 +184,6 @@
 		<relationship name="modulators">
 			<destination>{e35a1a61-882c-4afb-b167-603b1e103f1b}</destination>
 		</relationship>
-		<relationship name="fadeInCurve">
-			<destination>{ecf943e6-41dd-4424-94d4-775d6ea224cf}</destination>
-		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{a10ea996-8c1c-474a-bad1-eb1c1fc1701a}</destination>
 		</relationship>
@@ -293,14 +290,6 @@
 			<value>-0.157229021</value>
 		</property>
 	</object>
-	<object class="FadeCurve" id="{ecf943e6-41dd-4424-94d4-775d6ea224cf}">
-		<relationship name="startPoint">
-			<destination>{2639539c-8f01-4d2a-8de9-680f96ce9683}</destination>
-		</relationship>
-		<relationship name="endPoint">
-			<destination>{15d76955-3ce6-43ee-bd2b-5d88ea7ffc6f}</destination>
-		</relationship>
-	</object>
 	<object class="FadeCurve" id="{a10ea996-8c1c-474a-bad1-eb1c1fc1701a}">
 		<relationship name="startPoint">
 			<destination>{d0e8bfa4-cfd4-49d6-b7c6-ef53947cdf89}</destination>
@@ -347,25 +336,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a9ed6507-496f-468a-99fe-9da02768bf4e}" />
-	<object class="AutomationPoint" id="{2639539c-8f01-4d2a-8de9-680f96ce9683}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-		<property name="curveShape">
-			<value>-1.00000048</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{15d76955-3ce6-43ee-bd2b-5d88ea7ffc6f}">
-		<property name="position">
-			<value>0.0625</value>
-		</property>
-		<property name="value">
-			<value>100</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{d0e8bfa4-cfd4-49d6-b7c6-ef53947cdf89}">
 		<property name="position">
 			<value>1.15625</value>
