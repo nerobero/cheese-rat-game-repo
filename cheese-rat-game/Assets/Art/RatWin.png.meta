@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9c21bdcaf531b5644a1b5eb596543f28
+guid: 18077b59ffa5d3f4f83b2ab5fb892068
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4949056574658466435
-    second: Screenshot 2024-10-29 225020_0
+      213: 2463542009490513761
+    second: RatWin_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Screenshot 2024-10-29 225020_0
+      name: RatWin_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 244
-        height: 149
+        width: 2360
+        height: 1640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38254d1cbb49ea440800000000000000
-      internalID: 4949056574658466435
+      spriteID: 16f1fecb762403220800000000000000
+      internalID: 2463542009490513761
       vertices: []
       indices: 
       edges: []
@@ -199,8 +199,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Screenshot 2024-10-29 225020_0: 4949056574658466435
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
