@@ -1143,7 +1143,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: MouseCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1503,7 +1503,7 @@ Transform:
   m_GameObject: {fileID: 811732408}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.19, y: -0.43, z: 0}
+  m_LocalPosition: {x: 25.5, y: -0.36, z: 0}
   m_LocalScale: {x: 0.07784127, y: 0.07784127, z: 0.07784127}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2039,7 +2039,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4470592730861715767, guid: 749bcfa12162d494c8ca16f306189108, type: 3}
+  m_Sprite: {fileID: -6027482856423771073, guid: 0f535b5c7fe5195418ed1e2704b78066, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2059,8 +2059,8 @@ Transform:
   m_GameObject: {fileID: 1365207000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.75, y: 1.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.01, y: -2.44, z: 0}
+  m_LocalScale: {x: 0.09576169, y: 0.09576169, z: 0.09576169}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2103,7 +2103,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.9, y: 1.85}
+    oldSize: {x: 24.565718, y: 33.5625}
     newSize: {x: 1.9, y: 1.85}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2123,7 +2123,7 @@ GameObject:
   - component: {fileID: 1467653545}
   - component: {fileID: 1467653544}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: SpiderCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

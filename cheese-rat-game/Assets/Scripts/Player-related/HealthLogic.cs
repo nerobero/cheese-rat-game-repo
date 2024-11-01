@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthLogic : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class HealthLogic : MonoBehaviour
         {
             _isDead = true;
             _currentHealth = 0f;
+            SceneManager.LoadScene(3);
         }
         else
         {
