@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework.Constraints;
+using UnityEditor.MPE;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -18,6 +19,10 @@ public class PlayerMovement : MonoBehaviour
 
     protected HealthLogic _playerHealth = null;
     [SerializeField] protected Animator animator;
+
+    public CircleCollider2D playerCollider;
+
+    private bool _inWall = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected virtual void Start()
@@ -106,7 +111,6 @@ public class PlayerMovement : MonoBehaviour
             _currentUsableItem.UseItem();
             _currentUsableItem = null;
         }
-        myRigidBody2D.linearVelocity = moveSpeed * movement;
     }
 
     public void SetCurrentItem(GameObject currentItem) { 
@@ -130,6 +134,9 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
+
+
     protected void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Interactable")
@@ -149,4 +156,57 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public float GetMovementSpeed() { return moveSpeed; }
+    void FixedUpdate()
+    {
+
+        movement = movement.normalized; // Normalize to prevent faster diagonal movement
+
+        // Calculate the new position
+        Vector2 newPosition = myRigidBody2D.position + movement * moveSpeed * Time.fixedDeltaTime;
+        if(!WillCollide(newPosition))
+        {
+            myRigidBody2D.MovePosition(newPosition);
+        }
+        else
+        {
+            myRigidBody2D.MovePosition(myRigidBody2D.position);
+        }
+
+    }
+
+    private bool WillCollide(Vector2 newPosition)
+    {
+        // Perform a raycast to check for potential collisions
+        RaycastHit2D[] hits = Physics2D.RaycastAll(myRigidBody2D.position, newPosition - myRigidBody2D.position, movement.magnitude, LayerMask.GetMask("Default"));
+        
+        // Return true if a collision is detected
+        foreach (RaycastHit2D hit in hits)
+        {
+            if (hit.collider.CompareTag("Wall"))
+            return true;
+        }
+        return false;
+
+    }
+
+    // private void OnCollisionEnter2D(Collision2D collision)
+    // {
+    //     Debug.Log("Collided with: " + collision.gameObject.tag);
+    //     if (collision.gameObject.tag == "Wall")
+    //     {
+    //         Debug.Log("Collided with: " + collision.gameObject.name);
+    //         Debug.Log("Collided with FWOFKEWOFKEOFKWEKFOKEWF");
+    //         _inWall = true;
+    //         myRigidBody2D.linearVelocity = new Vector2(0, 0);
+    //         Debug.Log(_inWall);
+    //         Debug.Log(myRigidBody2D.linearVelocity);
+    //     }
+    // }
+    // private void OnCollisionExit2D(Collision2D collision)
+    // {
+    //     if (collision.gameObject.tag == "Wall")
+    //     {
+    //         _inWall = false;
+    //     }
+    // }
 }

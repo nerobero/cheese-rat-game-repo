@@ -7,6 +7,8 @@ TagManager:
   - Interactable
   - Cheese Hat
   - Projectile
+  - WALLS
+  - Wall
   layers:
   - Default
   - TransparentFX
