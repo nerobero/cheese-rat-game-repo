@@ -11,7 +11,7 @@ public class DamageProjectile : ProjectileBase
         
     }
 
-    protected void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         float attackDamage = GenerateRandomDamage();
 
@@ -22,7 +22,7 @@ public class DamageProjectile : ProjectileBase
         Destroy(gameObject);
     }
 
-    private float GenerateRandomDamage()
+    protected float GenerateRandomDamage()
     {
         return Random.Range(_minimumDamage, _maximumDamage);
     }

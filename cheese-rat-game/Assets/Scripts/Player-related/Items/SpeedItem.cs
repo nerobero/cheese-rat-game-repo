@@ -10,9 +10,8 @@ public class SpeedItem : ManualPickupItem
     {
         if (IsUsable())
         {
-            _originalSpeed = _playerMovement.moveSpeed;
-            _playerMovement.moveSpeed = _originalSpeed
-                                        * _speedChangeFactor;
+            _originalSpeed = _playerMovement.GetMovementSpeed();
+            _playerMovement.SetMovementSpeed(_originalSpeed * _speedChangeFactor);
             Debug.Log("movement speed buffed");
             StartCoroutine(ResetSpeed(10f));
         } else
@@ -25,7 +24,7 @@ public class SpeedItem : ManualPickupItem
     {
         yield return new WaitForSeconds(timeInSec);
         Debug.Log("movement speed reset to original");
-        _playerMovement.moveSpeed = _originalSpeed;
+        _playerMovement.SetMovementSpeed(_originalSpeed);
         _playerHealth = null;
         _playerMovement = null;
         _playerObject = null;
@@ -38,7 +37,7 @@ public class SpeedItem : ManualPickupItem
         if (_playerObject != null)
         {
             _playerMovement = _playerObject.GetComponent<PlayerMovement>(); ;
-            _originalSpeed = _playerMovement.moveSpeed;
+            _originalSpeed = _playerMovement.GetMovementSpeed();
         }
 
         _speedChangeFactor = 2f;

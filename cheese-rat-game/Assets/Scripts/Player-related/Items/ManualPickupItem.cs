@@ -10,7 +10,7 @@ public abstract class ManualPickupItem : MonoBehaviour
     protected HealthLogic _playerHealth = null;
     protected bool collidingWithPlayer = false;
     [SerializeField] protected Collider2D _collider;
-    [SerializeField] protected SpriteRenderer _sprite ;
+    [SerializeField] protected SpriteRenderer _sprite;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

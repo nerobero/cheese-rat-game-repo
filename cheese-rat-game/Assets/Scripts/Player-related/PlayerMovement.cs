@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public bool carryingCheese = false;
     public Rigidbody2D myRigidBody2D;
-    public float moveSpeed = 10f;
+    [SerializeField] protected float moveSpeed = 10f;
     protected Vector2 movement;
     [SerializeField] protected GameObject cheeseObject = null;
 
@@ -17,10 +17,10 @@ public class PlayerMovement : MonoBehaviour
     protected bool _isInteractable = false;
 
     protected HealthLogic _playerHealth = null;
-    protected Animator animator;
+    [SerializeField] protected Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    protected void Start()
+    protected virtual void Start()
     {
         _currentInteractable = null;
         _currentUsableItem = null;
@@ -142,4 +142,11 @@ public class PlayerMovement : MonoBehaviour
             cheeseObject = null;
         }
     }
+
+    public void SetMovementSpeed(float newSpeed)
+    {
+        moveSpeed = newSpeed;
+    }
+
+    public float GetMovementSpeed() { return moveSpeed; }
 }
