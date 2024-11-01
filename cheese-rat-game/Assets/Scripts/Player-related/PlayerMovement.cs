@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public bool carryingCheese = false;
     public Rigidbody2D myRigidBody2D;
-    [SerializeField] protected float moveSpeed = 10.0f;
+    [SerializeField] protected float moveSpeed = 30.0f;
     protected Vector2 movement;
     [SerializeField] protected GameObject cheeseObject = null;
 
