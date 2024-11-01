@@ -399,7 +399,7 @@ Transform:
   m_GameObject: {fileID: 263942960}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: 0.755, z: 0}
+  m_LocalPosition: {x: 0.7, y: 12.7, z: 0}
   m_LocalScale: {x: 7.2660933, y: 77.306915, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -946,7 +946,7 @@ Transform:
   m_GameObject: {fileID: 809132164}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.7579806, z: 0}
+  m_LocalPosition: {x: 0, y: 0.614, z: 0}
   m_LocalScale: {x: 1.3642565, y: 0.11607662, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1206,6 +1206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maximumHealth: 200
   _currentHealth: 200
+  _fmodEventName: 
 --- !u!95 &811732415
 Animator:
   serializedVersion: 7
@@ -1246,7 +1247,7 @@ GameObject:
   - component: {fileID: 980946587}
   - component: {fileID: 980946588}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Rat
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1431,6 +1432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maximumHealth: 100
   _currentHealth: 100
+  _fmodEventName: event:/Oneshots/Damage
 --- !u!114 &980946587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1642,7 +1644,7 @@ Transform:
   m_GameObject: {fileID: 1467653542}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 32.7, z: -69.14326}
+  m_LocalPosition: {x: 0, y: 40.3, z: -69.14326}
   m_LocalScale: {x: 6.8870525, y: 6.8870525, z: 6.8870525}
   m_ConstrainProportionsScale: 0
   m_Children: []

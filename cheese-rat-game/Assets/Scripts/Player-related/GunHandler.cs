@@ -5,8 +5,6 @@ public class GunHandler : MonoBehaviour
     private Rigidbody2D _rigidBody;
     private Vector2 _mousePosition;
     private Vector2 _mouseDirection;
-    private float _horizontalSpeed = 2f;
-    private float _verticalSpeed = 2f;
     
     [SerializeField] private GameObject _projectilePrefab;
     [SerializeField] private Transform _shootPoint;

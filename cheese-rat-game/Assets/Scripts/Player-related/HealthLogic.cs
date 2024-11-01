@@ -5,6 +5,7 @@ public class HealthLogic : MonoBehaviour
 {
     [SerializeField] private float _maximumHealth;
     [SerializeField] private float _currentHealth;
+    [SerializeField] private string _fmodEventName;
     private bool _isDead = false;
     private bool _isInvincible = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -38,6 +39,7 @@ public class HealthLogic : MonoBehaviour
            if (!_isInvincible && !_isDead)
             {
                 _currentHealth -= damageAmount;
+                FMODUnity.RuntimeManager.PlayOneShot(_fmodEventName);
             }
         }
     }

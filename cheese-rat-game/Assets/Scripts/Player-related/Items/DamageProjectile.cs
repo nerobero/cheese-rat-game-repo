@@ -18,8 +18,9 @@ public class DamageProjectile : ProjectileBase
         if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.GetComponent<HealthLogic>().TakeDamage(attackDamage);
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+        
     }
 
     protected float GenerateRandomDamage()
