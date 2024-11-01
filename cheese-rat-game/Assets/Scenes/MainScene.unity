@@ -14840,6 +14840,7 @@ GameObject:
   - component: {fileID: 1365207002}
   - component: {fileID: 1365207005}
   - component: {fileID: 1365207006}
+  - component: {fileID: 1365207007}
   m_Layer: 0
   m_Name: cheese_0
   m_TagString: Cheese Hat
@@ -14864,6 +14865,7 @@ MonoBehaviour:
   collidingWithPlayer: 0
   speed: 5
   myRigidBody2D: {fileID: 1365207006}
+  animator: {fileID: 0}
 --- !u!212 &1365207003
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14928,7 +14930,7 @@ Transform:
   m_GameObject: {fileID: 1365207000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 76.31, y: 19.16, z: 0}
+  m_LocalPosition: {x: -5.9, y: 22.2, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14971,7 +14973,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.51897997, y: 0.50000024}
     oldSize: {x: 24.565718, y: 33.5625}
     newSize: {x: 1.9, y: 1.85}
     adaptiveTilingThreshold: 0.5
@@ -15007,6 +15009,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &1365207007
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365207000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8d788c600f27c4b4bb63f6610f19900c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1467653542
 GameObject:
   m_ObjectHideFlags: 0
