@@ -1,5 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using NUnit.Framework.Constraints;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,12 +17,14 @@ public class PlayerMovement : MonoBehaviour
     protected bool _isInteractable = false;
 
     protected HealthLogic _playerHealth = null;
+    private Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected void Start()
     {
         _currentInteractable = null;
         _currentUsableItem = null;
+        animator = GetComponent<Animator>();
 
         if (gameObject.GetComponent<HealthLogic>() != null)
         {
@@ -34,19 +39,41 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W)) // Move Up
             {
                 movement.y += 1;
+                animator.SetBool("isWalking", true);
+                animator.SetFloat("InputX", 0);
+                animator.SetFloat("InputY", movement.y);
+                animator.SetFloat("LastInputX", 0);
+                animator.SetFloat("LastInputY", movement.y);
             }
         if (Input.GetKey(KeyCode.S)) // Move Down
             {
                 movement.y += -1;
+                animator.SetBool("isWalking", true);
+                animator.SetFloat("InputX", 0);
+                animator.SetFloat("InputY", movement.y);
+                animator.SetFloat("LastInputX", 0);
+                animator.SetFloat("LastInputY", movement.y);
             }
         if (Input.GetKey(KeyCode.A)) // Move Left
             {
                 movement.x += -1;
+                animator.SetBool("isWalking", true);
+                animator.SetFloat("InputX", movement.x);
+                animator.SetFloat("LastInputX", movement.x);
+                animator.SetFloat("LastInputY", 0);
             }
         if (Input.GetKey(KeyCode.D)) // Move Right
             {
                 movement.x += 1;
+                animator.SetBool("isWalking", true);
+                animator.SetFloat("InputX", movement.x);
+                animator.SetFloat("LastInputX", movement.x);
+                animator.SetFloat("LastInputY", 0);
             }
+        if (movement == Vector2.zero)
+        {
+            animator.SetBool("isWalking", false);
+        }
         if (Input.GetKey(KeyCode.Space)) // Drop Cheese
             {
                 carryingCheese = false;

@@ -1,0 +1,1248 @@
+fileFormatVersion: 2
+guid: f9068cfb40876854fb01b3d34aa93feb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2668022468108162117
+    second: mouse-up_0
+  - first:
+      213: -6790229384646803929
+    second: mouse-up_1
+  - first:
+      213: -1979598959249966299
+    second: mouse-up_2
+  - first:
+      213: 9018149547374339603
+    second: mouse-up_3
+  - first:
+      213: -8942325514448474089
+    second: mouse-up_4
+  - first:
+      213: -9132553787134272486
+    second: mouse-up_5
+  - first:
+      213: 1721948576605447036
+    second: mouse-up_6
+  - first:
+      213: 3470615583697283247
+    second: mouse-up_7
+  - first:
+      213: 8225108180551108379
+    second: mouse-up_8
+  - first:
+      213: 6820778501208394144
+    second: mouse-up_9
+  - first:
+      213: 7093901360988951657
+    second: mouse-up_10
+  - first:
+      213: 3373046992518700621
+    second: mouse-up_11
+  - first:
+      213: 8680693219881688311
+    second: mouse-up_12
+  - first:
+      213: 1081318336307885146
+    second: mouse-up_13
+  - first:
+      213: -5854421555526778524
+    second: mouse-up_14
+  - first:
+      213: -136055843398946485
+    second: mouse-up_15
+  - first:
+      213: -553845227076090320
+    second: mouse-up_16
+  - first:
+      213: 4084534777114107700
+    second: mouse-up_17
+  - first:
+      213: -111366903510124583
+    second: mouse-up_18
+  - first:
+      213: -8507073518338068910
+    second: mouse-up_19
+  - first:
+      213: -7919832061468138585
+    second: mouse-up_20
+  - first:
+      213: -1891041267111417223
+    second: mouse-up_21
+  - first:
+      213: 6432367006909669953
+    second: mouse-up_22
+  - first:
+      213: 8922442249486941375
+    second: mouse-up_23
+  - first:
+      213: -7709469186695336664
+    second: mouse-up_24
+  - first:
+      213: -4444223889390042502
+    second: mouse-up_25
+  - first:
+      213: -6874862259788067411
+    second: mouse-up_26
+  - first:
+      213: 441862769044809353
+    second: mouse-up_27
+  - first:
+      213: -520980528823604347
+    second: mouse-up_28
+  - first:
+      213: -8955964526011925362
+    second: mouse-up_29
+  - first:
+      213: 5423364270403883990
+    second: mouse-up_30
+  - first:
+      213: -7306036186696032078
+    second: mouse-up_31
+  - first:
+      213: -3555805213604955677
+    second: mouse-up_32
+  - first:
+      213: 9019356565409218876
+    second: mouse-up_33
+  - first:
+      213: -814607788103734646
+    second: mouse-up_34
+  - first:
+      213: 4832784149359018329
+    second: mouse-up_35
+  - first:
+      213: 5263294926140528590
+    second: mouse-up_36
+  - first:
+      213: 7040573398755792804
+    second: mouse-up_37
+  - first:
+      213: 162696366887865519
+    second: mouse-up_38
+  - first:
+      213: 3690700372592282643
+    second: mouse-up_39
+  - first:
+      213: 8984916044450395759
+    second: mouse-up_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mouse-up_0
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1630
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54419588c48b60520800000000000000
+      internalID: 2668022468108162117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1633
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e35b0d95244c1a0800000000000000
+      internalID: -6790229384646803929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1628
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b3c242c3d0784e0800000000000000
+      internalID: -1979598959249966299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1632
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316e89eab37e62d70800000000000000
+      internalID: 9018149547374339603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_4
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1629
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710f265b25a76e380800000000000000
+      internalID: -8942325514448474089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_5
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1632
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c96b987b6a24180800000000000000
+      internalID: -9132553787134272486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_6
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1631
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73ae0e6b1795e710800000000000000
+      internalID: 1721948576605447036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_7
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1634
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8263a3c7a1a2030800000000000000
+      internalID: 3470615583697283247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_8
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1632
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1788eccf44752270800000000000000
+      internalID: 8225108180551108379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_9
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 1635
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9c528a8e548ae50800000000000000
+      internalID: 6820778501208394144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 923
+        width: 342
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9641865e3b9927260800000000000000
+      internalID: 7093901360988951657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_11
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 888
+        width: 342
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ed6c75e587fce20800000000000000
+      internalID: 3373046992518700621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_12
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1175
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc903fbd74087870800000000000000
+      internalID: 8680693219881688311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_13
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 874
+        width: 342
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a547fbc3c4d910f00800000000000000
+      internalID: 1081318336307885146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_14
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1181
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461cf610d9ae0cea0800000000000000
+      internalID: -5854421555526778524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_15
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 848
+        width: 349
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41f6986ee1ac1ef0800000000000000
+      internalID: -136055843398946485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_16
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1182
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036859b43b85058f0800000000000000
+      internalID: -553845227076090320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_17
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1174
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f9d9e2dbe2fa830800000000000000
+      internalID: 4084534777114107700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_18
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 862
+        width: 342
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d73b8c2468547ef0800000000000000
+      internalID: -111366903510124583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_19
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1175
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ea35d15bdc0f980800000000000000
+      internalID: -8507073518338068910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_20
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1165
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3217f73ba171290800000000000000
+      internalID: -7919832061468138585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_21
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1169
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a283a9cfba1c5e0800000000000000
+      internalID: -1891041267111417223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_22
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 781
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1422bcf66bb544950800000000000000
+      internalID: 6432367006909669953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_23
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 784
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc3b99e3f1e2db70800000000000000
+      internalID: 8922442249486941375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_24
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 784
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d64380f96720590800000000000000
+      internalID: -7709469186695336664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_25
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 787
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a720a9a4be1f252c0800000000000000
+      internalID: -4444223889390042502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_26
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 779
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadc79503359790a0800000000000000
+      internalID: -6874862259788067411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_27
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 782
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986e26ce8dfc12600800000000000000
+      internalID: 441862769044809353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 5
+        width: 342
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58be29428fa15c8f0800000000000000
+      internalID: -520980528823604347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_29
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 773
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c3f0ed6b506b380800000000000000
+      internalID: -8955964526011925362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_30
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 776
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d318f8d119a34b40800000000000000
+      internalID: 5423364270403883990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_31
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 342
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b065d71ccebb9a90800000000000000
+      internalID: -7306036186696032078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_32
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 0
+        width: 342
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e938986ffd37aec0800000000000000
+      internalID: -3555805213604955677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_33
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 331
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31cdc772013b2d70800000000000000
+      internalID: 9019356565409218876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_34
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 342
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a6fce588ee1b4f0800000000000000
+      internalID: -814607788103734646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 334
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951cea2249f711340800000000000000
+      internalID: 4832784149359018329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_36
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 329
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7d8b469dafa0940800000000000000
+      internalID: 5263294926140528590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_37
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 327
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a757ef143425b160800000000000000
+      internalID: 7040573398755792804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_38
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 324
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac0992db73024200800000000000000
+      internalID: 162696366887865519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_39
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cc3c84f60083330800000000000000
+      internalID: 3690700372592282643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse-up_40
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 322
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f667c2ec985d0bc70800000000000000
+      internalID: 8984916044450395759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mouse-up_0: 2668022468108162117
+      mouse-up_1: -6790229384646803929
+      mouse-up_10: 7093901360988951657
+      mouse-up_11: 3373046992518700621
+      mouse-up_12: 8680693219881688311
+      mouse-up_13: 1081318336307885146
+      mouse-up_14: -5854421555526778524
+      mouse-up_15: -136055843398946485
+      mouse-up_16: -553845227076090320
+      mouse-up_17: 4084534777114107700
+      mouse-up_18: -111366903510124583
+      mouse-up_19: -8507073518338068910
+      mouse-up_2: -1979598959249966299
+      mouse-up_20: -7919832061468138585
+      mouse-up_21: -1891041267111417223
+      mouse-up_22: 6432367006909669953
+      mouse-up_23: 8922442249486941375
+      mouse-up_24: -7709469186695336664
+      mouse-up_25: -4444223889390042502
+      mouse-up_26: -6874862259788067411
+      mouse-up_27: 441862769044809353
+      mouse-up_28: -520980528823604347
+      mouse-up_29: -8955964526011925362
+      mouse-up_3: 9018149547374339603
+      mouse-up_30: 5423364270403883990
+      mouse-up_31: -7306036186696032078
+      mouse-up_32: -3555805213604955677
+      mouse-up_33: 9019356565409218876
+      mouse-up_34: -814607788103734646
+      mouse-up_35: 4832784149359018329
+      mouse-up_36: 5263294926140528590
+      mouse-up_37: 7040573398755792804
+      mouse-up_38: 162696366887865519
+      mouse-up_39: 3690700372592282643
+      mouse-up_4: -8942325514448474089
+      mouse-up_40: 8984916044450395759
+      mouse-up_5: -9132553787134272486
+      mouse-up_6: 1721948576605447036
+      mouse-up_7: 3470615583697283247
+      mouse-up_8: 8225108180551108379
+      mouse-up_9: 6820778501208394144
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
