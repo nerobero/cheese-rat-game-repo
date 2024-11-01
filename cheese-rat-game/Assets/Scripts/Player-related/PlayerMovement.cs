@@ -96,8 +96,8 @@ public class PlayerMovement : MonoBehaviour
 
                 if (!_isValidUsableItem)
                 {
-                    _currentUsableItem = null;
                     _currentUsableItem.ShowItem();
+                    _currentUsableItem = null;
                 }
             }
         }

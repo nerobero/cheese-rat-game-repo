@@ -8,6 +8,7 @@ public class SpiderMovement : PlayerMovement
     protected override void Start()
     {
         animator = GetComponentInChildren<Animator>();
+        base.Start();
     }
     // Update is called once per frame
     protected override void Update()
@@ -73,8 +74,8 @@ public class SpiderMovement : PlayerMovement
                 
                 if (!_isValidUsableItem)
                 {
-                    _currentUsableItem = null;
                     _currentUsableItem.ShowItem();
+                    _currentUsableItem = null;
                 }
             }
         }

@@ -51,10 +51,7 @@ public abstract class ManualPickupItem : MonoBehaviour
                 _playerObject = playerObject; 
                 return true; 
             }
-            else { 
-                Debug.Log("Cannot set player object reference until it is set to null"); 
-                return false; 
-            }
+            else { return false; }
         } else
         {
             return false;
