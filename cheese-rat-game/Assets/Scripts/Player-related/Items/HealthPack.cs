@@ -8,6 +8,7 @@ public class HealthPack : ManualPickupItem
         if (IsUsable())
         {
             _playerHealth.Heal(_healAmount);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Oneshots/Powerups/Healing");
             Debug.Log("Player health healed");
             ShowItem();
         } else

@@ -700,11 +700,20 @@
 	</object>
 	<object class="MixerBusFader" id="{58bc3ff0-d3cb-4152-a59f-2f94a6195856}" />
 	<object class="SpatialiserEffect" id="{4a8758e4-baa0-4541-88c5-6fb0eb614883}">
+		<property name="minimumDistance">
+			<value>6.3499999</value>
+		</property>
 		<property name="maximumDistance">
-			<value>8</value>
+			<value>70</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
+		</property>
+		<property name="soundSize">
+			<value>0.150000006</value>
+		</property>
+		<property name="userStereoSeparation">
+			<value>92</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{004601a8-346e-44da-8e4b-9af43c58ba40}">

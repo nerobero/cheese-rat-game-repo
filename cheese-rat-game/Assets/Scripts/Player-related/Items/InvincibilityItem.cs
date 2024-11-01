@@ -8,6 +8,7 @@ public class InvincibilityItem : ManualPickupItem
         if (IsUsable())
         {
             _playerHealth.SetToInvincible();
+            /* Fmod */
             Debug.Log("Player is invincible");
             StartCoroutine(Resetitem(10f));
         }

@@ -12,6 +12,7 @@ public class SpeedItem : ManualPickupItem
         {
             _originalSpeed = _playerMovement.GetMovementSpeed();
             _playerMovement.SetMovementSpeed(_originalSpeed * _speedChangeFactor);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Oneshots/Powerups/Speed");
             Debug.Log("movement speed buffed");
             StartCoroutine(ResetSpeed(10f));
         } else
